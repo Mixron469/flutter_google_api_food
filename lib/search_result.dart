@@ -28,7 +28,7 @@ class _SearchResultPageState extends State<SearchResultPage> {
         isDelayed = true;
       });
     });
-    String apiKey = 'AIzaSyCOIZKm-jZNYhv7e7MN-XHn5gaxfW4NRxY';
+    String apiKey = ''; // USE YOUR API KEY
     googlePlace = GooglePlace(apiKey);
     super.initState();
   }
